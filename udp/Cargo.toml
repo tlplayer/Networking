@@ -1,0 +1,13 @@
+[package]
+name = "reliable-udp"
+version = "0.1.0"
+edition = "2021"
+description = "Rust rewrite of the CS144 reliable transport over UDP lab"
+
+[lib]
+name = "reliable_udp"
+path = "src/lib.rs"
+
+[[bin]]
+name = "reliable"
+path = "src/main.rs"
